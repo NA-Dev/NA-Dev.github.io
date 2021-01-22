@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+#resume {
+  color: #737b84;
+  font-family: 'Open Sans', Montserrat, sans-serif;
+  padding-top: 60px;
+  overflow: hidden;
+  font-size: 17px;
+  
+  .education, .work {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E8E8E8;
+  }
+  h1 {
+    color: #313131;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+    span {
+        border-bottom: 3px solid #11ABB0;
+        padding-bottom: 6px;
+    }
+  }
+  
+  h3 {
+    color: #313131;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  .info {
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 17px;
+    line-height: 24px;
+    color: #6E7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+    
+    span {
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+  }
+  .date {
+    font-family: 'Open Sans', Montserrat, sans-serif;
+    font-style: normal;
+    margin-top: 6px;
+  }
+ 
+  p {
+    margin: 0 0 30px 0;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    h1 {
+      letter-spacing: 3px;
+    }
+    
+    .header-col {
+      padding-top: 0;
+      margin-bottom: 48px;
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    h1 {
+      font-size: 18px;
+    }
+  }
+}

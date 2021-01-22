@@ -1,0 +1,14 @@
+.navbar {
+    .navbar-brand {
+        .n-logo {
+            max-width: 40px;
+        }
+    }
+    
+    .navbar-nav {
+        .nav-link:not(.btn) {
+            text-transform: uppercase;
+            font-size: $font-size-small;
+        }
+    }
+}

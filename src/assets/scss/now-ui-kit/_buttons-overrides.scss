@@ -1,0 +1,21 @@
+.btn-medium {
+
+  &,
+  &:hover,
+  &focus,
+  &:active,
+  &:active:focus {
+    color: $social-medium !important;
+  }
+}
+
+.btn-email {
+
+  &,
+  &:hover,
+  &focus,
+  &:active,
+  &:active:focus {
+    color: $social-email !important;
+  }
+}
