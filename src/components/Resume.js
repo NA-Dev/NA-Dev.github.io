@@ -10,21 +10,24 @@ function Resume() {
 
   return (
       <section id="resume">
+        <div className="objective">
+            <p>{resumeData.resume.objective}</p>
+        </div>
 
         <div className="row education">
           <div className="col col-12 col-lg-3 header-col">
             <h1><span>Education</span></h1>
           </div>
-
+          
           <div className="col col-12 col-lg-9 main-col">
             <div className="row item">
               <div className="col col-12">
                 {resumeData.resume.education.map(function (education) {
                   return (
                     <div key={education.school}>
-                      <h3>{education.school}</h3>
+                      <h3>{education.degree}</h3>
                       <p className="info">
-                        {education.degree} 
+                        {education.school} 
                         <span>&bull;</span>
                         <em className="date">{education.graduated}</em>
                       </p>
@@ -47,13 +50,19 @@ function Resume() {
             {resumeData.resume.work.map(function (work) {
               return (
                 <div key={work.company}>
-                  <h3>{work.company}</h3>
+                  <h3>{work.title}</h3>
                   <p className="info">
-                    {work.title}
+                    {work.company}
                     <span>&bull;</span> 
                     <em className="date">{work.years}</em>
                   </p>
-                  <p>{work.description}</p>
+                  <ul>
+                    {work.description.map(function (p) {
+                      return (
+                        <li>{p}</li>
+                      )
+                    })}
+                  </ul>
                 </div>
               )
             })}
@@ -68,21 +77,22 @@ function Resume() {
           </div>
 
           <div className="col col-12 col-lg-9 main-col">
-            <p>{resumeData.resume.skillmessage}</p>
 
-            <div className="bars">
-              <ul className="skills">
-                {resumeData.resume.skills.map(function (skills) {
-                  var className = 'bar-expand ' + skills.name.toLowerCase();
+            <div className="skill-categories">
+                {resumeData.resume.skills_categories.map(function (category) {
                   return (
-                    <li key={skills.name}>
-                      <span style={{width: skills.level}}
-                           className={className} />
-                      <em>{skills.name}</em>
-                    </li>
+                    <div className="skill-category" key={category.name}>
+                      <h6>{category.name}</h6>
+                      <div className="skills">
+                        {category.skills.map(function (skill) {
+                          return (
+                            <span className="skill">{skill}</span>
+                          );
+                        })}
+                      </div>
+                    </div>
                   );
                 })}
-              </ul>
             </div>
 
           </div>

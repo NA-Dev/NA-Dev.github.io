@@ -103,10 +103,10 @@ function IndexNavbar() {
               
               <NavItem>
                 <Button
-                  className="nav-link btn-neutral"
+                  className="nav-link"
                   color="info"
-                  href="/resume-download"
-                  onClick={(e) => e.preventDefault()}
+                  href={require("assets/NAaronResume2021.pdf")} 
+                  download="NAaronResume"
                 >
                   <i className="fas fa-file-download mr-1"></i>
                   <p>Download Resume</p>

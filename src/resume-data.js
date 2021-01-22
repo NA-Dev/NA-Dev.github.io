@@ -13,7 +13,7 @@ export const resumeData = {
     "email": "n.aaron.na@gmail.com",
     "phone": "804-655-1466",
     "address":{
-      "street":"3030 Summerhurst Drive",
+      // "street":"3030 Summerhurst Drive",
       "city":"Midlothian",
       "state":"VA",
       "zip": "23113"
@@ -48,63 +48,98 @@ export const resumeData = {
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "objective":"I am a self-driven, creative data scientist with a background in statistical data analysis, programming, and engineering. Upon graduation in May, I hope to join an innovative team to make use of and develop my skills.",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"University of Virginia",
+        "degree":"Masters in Data Science",
+        "graduated":"May 2021",
+        "description":"The MSDS program is taught by faculty from the Departments of Computer Science, Statistics, and Systems and Information Engineering. Topics include Python Programming, Algorithms and Data Structures, Linear Modeling, Data Mining, Big Data, Natural Language Processing, and Machine Learning"
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"University of Richmond",
+        "degree":"Full Stack Web Development Certificate",
+        "graduated":"March 2018",
+        "description":"Project-based courses on UX/UI design, object-oriented programming in Javascript and PHP, database operations, cloud services, and web-app deployment."
+      },
+      {
+        "school":"University of Alabama - Birmingham",
+        "degree":"Bachelors in Mechanical Engineering",
+        "graduated":"March 2018",
+        "description":"Learned mathematics, physics, thermodynamics, and materials science principles to design, analyze, manufacture, and maintain mechanical systems."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"University of Virginia",
+        "title":"Data Science Research Assistant",
+        "years":"August 2020 - Present",
+        "description":[
+          "Data mining of census and GIS big data sets with Python and Spark."
+        ]
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
+        "company":"Ameronix Corporation",
+        "title":"Full Stack Web Developer",
         "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": [
+            " Developed scalable, fault-tolerant web apps in PHP, Javascript, React, Node, Laravel, and Vue.js to help entrepreneurs manage their business processes.",
+            "Created apis, schedulers, and payment systems that saved clients time and money, and improved the user experience for their customers and employees."
+        ]
+      },
+      {
+        "company":"Virginia Department of Transportation",
+        "title":"Load Rating Engineer",
+        "years":"September 2016 - October 2017",
+        "description": [
+          "Performed structural analysis of bridges to grant permits for oversized load crossings.",
+          "Reduced permit processing time by 60% by automating our calculations and decision making using Visual Basic code in Excel.",
+          "Mocked up an ArcGIS mapping application for bridge data management after completing ArcGIS training."
+        ]
+      },
+      {
+        "company":"Johnson Controls",
+        "title":"Product Engineer (promoted from Manufacturing Engineer)",
+        "years":"April 2014 - June 2016",
+        "description": [
+          "Integrated computer vision systems into our assembly line and trained their machine learning algorithms to detect defects from captured images.",
+          "Completed Six Sigma Green Belt project to eliminate $1500/day in defective assemblies.",
+          "Experimented with variable production parameters to optimize the quality of layered plastic and leather products. This optimization added a previously un-processable product line to our plant, saving the company tens of thousands of dollars in air-freight costs annually."
+        ]
+      },
+      {
+        "company":"UAB Center for Biophysical Sciences and Engineering",
+        "title":"Mechanical Engineer I",
+        "years":"September 2011 - November 2013",
+        "description": [
+          "Worked with the team contracted by NASA to build and maintain cryogenic freezers for scientific experiments. My team designed an optimized heat sink and piezoelectric fan system which was installed in freezers and sent to the International Space Station."
+        ]
       }
     ],
-    "skills":[
+    "skills_categories":[
       {
-        "name":"Git",
-        "level":"60%"
+        "name":"Programming",
+        "skills": ["Python", "R", "PHP", "Spark", "Excel/VBA"]
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"Database",
+        "skills": ["MySQL", "SQLite", "GraphQL", "MongoDB"]
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name":"Visualization",
+        "skills": ["GGPlot", "Tableau", "ArcGIS"]
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "name":"Web Development",
+        "skills": ["HTML/CSS", "Javascript", "React", "Vue", "Node", "Django", "Flask", "Laravel", "Magento"]
       },
       {
-        "name":"HTML5",
-        "level":"80%"
+        "name":"Cloud Computing",
+        "skills": ["Amazon Web Services (AWS)", "Remote SSH", "Heroku"]
       },
       {
-        "name":"VueJs",
-        "level":"50%"
-      },
-      {
-        "name":"MongoDB",
-        "level":"80%"
+        "name":"Technical Writing & Documentation",
+        "skills": ["Microsoft Office Suite", "Markdown", "LaTex"]
       }
     ]
   },

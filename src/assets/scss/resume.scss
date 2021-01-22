@@ -8,7 +8,7 @@
   overflow: hidden;
   font-size: 17px;
   
-  .education, .work {
+  .education, .work, .objective {
     margin-bottom: 48px;
     padding-bottom: 24px;
     border-bottom: 1px solid #E8E8E8;
@@ -60,6 +60,23 @@
  
   p {
     margin: 0 0 30px 0;
+    font-size: 17px;
+  }
+  
+  div.skill-categories {
+    div.skill-category {
+      margin-bottom: 1em;
+      div.skills {
+        display: flex;
+        flex-wrap: wrap;
+        span.skill {
+          &:not(:last-child):after {
+            content: "\00B7"; 
+            padding: 0 0.5em;
+          }
+        }
+      }
+    }
   }
   
   @media only screen and (max-width: 767px) {

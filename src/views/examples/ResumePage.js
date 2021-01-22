@@ -54,8 +54,7 @@ function ResumePage() {
                 )
               })}
             </div>
-            <h2>Content coming soon. Check back next week.</h2>
-            {/*<Resume />*/}
+            <Resume />
           </Container>
         </div>
         <DefaultFooter />
