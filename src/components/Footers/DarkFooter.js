@@ -17,7 +17,7 @@ function DarkFooter() {
                     className="btn-neutral btn-icon btn-round mt-0 mb-0"
                     color={social.name.toLowerCase()}
                     href={social.url}
-                    onClick={(e) => e.preventDefault()}
+                    target="_blank"
                   >
                     <i className={social.className}></i>
                   </Button>

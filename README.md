@@ -9,6 +9,15 @@ nvm use 12
 npm start
 ````
 
+### Deploy to GitHub Pages
+```bash
+cd frontend
+unset HOST
+nvm use 12
+npm run build
+npm run deploy
+```
+
 ## Sources
 
 Frontend UI Kit:  

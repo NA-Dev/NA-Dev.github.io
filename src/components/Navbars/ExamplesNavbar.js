@@ -99,6 +99,15 @@ function ExamplesNavbar() {
                   </NavItem>
                 )
               })}
+              <Button
+                  className="nav-link btn-neutral"
+                  color="info"
+                  href="/resume-download"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  <i className="fas fa-file-download mr-1"></i>
+                  <p>Download Resume</p>
+                </Button>
               {resumeData.main.social.map(function (social) {
                 return ( 
                   <NavItem>
