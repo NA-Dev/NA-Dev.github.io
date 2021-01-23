@@ -65,7 +65,6 @@ function PortfolioPage() {
                     color="info"
                     href="/resume"
                     size="lg"
-                    target="_blank"
                   >
                     View My Resume
                   </Button>

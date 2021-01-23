@@ -117,7 +117,6 @@ function ProfilePage() {
                 color="info"
                 href="/portfolio"
                 size="lg"
-                target="_blank"
               >
                 See My Recent Projects
               </Button>

@@ -53,7 +53,6 @@ function IndexHeader() {
                 color="info"
                 href="/about"
                 size="lg"
-                target="_blank"
               >
                 Learn More About Me
               </Button>

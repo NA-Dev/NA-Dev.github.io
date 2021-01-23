@@ -90,6 +90,7 @@ function ExamplesNavbar() {
             navbar
           >
             <Nav navbar>
+              
               {Object.keys(routes).map(function (url, i) {
                 return ( 
                   <NavItem>
@@ -99,15 +100,18 @@ function ExamplesNavbar() {
                   </NavItem>
                 )
               })}
-              <Button
-                  className="nav-link"
-                  color="info"
-                  href={require("assets/NAaronResume2021.pdf")} 
-                  download="NAaronResume"
-                >
-                  <i className="fas fa-file-download mr-1"></i>
-                  <p>Download Resume</p>
-                </Button>
+              
+              <NavItem>
+                <Button
+                    className="nav-link"
+                    color="info"
+                    href={require("assets/NAaronResume2021.pdf")} 
+                    download="NAaronResume"
+                  >
+                    <i className="fas fa-file-download mr-1"></i>
+                    <p>Download Resume</p>
+                  </Button>
+              </NavItem>
               {resumeData.main.social.map(function (social) {
                 return ( 
                   <NavItem>
