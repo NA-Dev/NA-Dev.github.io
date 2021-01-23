@@ -54,14 +54,10 @@ ReactDOM.render(
             path="/resume" 
             render={(props) => <ResumePage {...props} />}
         />
-        <Route 
-            path="/examples" 
-            render={(props) => <Index {...props} />}
-        />
-        <Route 
-            path="/landing" 
-            render={(props) => <OldLandingPage {...props} />}
-        />
+        {/*<Route */}
+        {/*    path="/examples" */}
+        {/*    render={(props) => <Index {...props} />}*/}
+        {/*/>*/}
         <Redirect to="/index" />
         <Redirect from="/" to="/index" />
       </Switch>
