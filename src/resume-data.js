@@ -4,7 +4,7 @@ export const resumeData = {
     "occupation":"Data Scientist | Developer",
     "description": "Thank you for your interest in my portfolio! After working for several years in development and engineering, I am now a University of Virginia School of Data Science Masters candidate set to graduate in May 2021. I am currently looking for work, so feel free to reach out with any opportunities.",
     "bio": [
-      "I was born and raised in Birmingham, Alabama -- Roll Tide! -- to a long line of crafters and mechanics. Being the first in my family to attend college, I was unfamiliar with the professional world and unsure what major to choose. Having excelled in math and science, I stuck to my roots and majored in mechancial engineering.",
+      "I was born and raised in Birmingham, Alabama -- Roll Tide! -- to a long line of crafters and mechanics. Being the first in my family to attend college, I was unfamiliar with the professional world and unsure what major to choose. Having excelled in math and science, I stuck to my roots and majored in mechanical engineering.",
       "Working in the engineering field gave me ample opportunity to experiment with innovative approaches to longstanding problems. I helped improving automotive interior manufacturing, sent cryogenic freezers I helped build to the International Space Station, and maintained colossal power generation plants. ",
       "However, I often found myself gravitating toward using automation and software rather than mechanics to solve problems. So, after moving away from the industrial deep south to Richmond, Virginia with my fiancé so he could further his career as a patent attorney, I decided to make a transition. Luckily, there was a coding bootcamp nearby at the University of Richmond. This experience taught me object-oriented programming, and a recommendation from one of my TA's to his boss got me my first programming job. For two years, I honed my programming skills by creating databases and web-apps that helped large and small businesses collect data and automate their daily tasks.",
       "As my company struggled to start using machine learning, I realized there was more for me to learn. For this reason, I could see that mastering Data Science was the next step in my development journey. I am currently finishing a Master's degree in Data Science at the University of Virginia so that I can automate data-driven decision making using the most versatile and cutting-edge methods available.",
@@ -14,13 +14,11 @@ export const resumeData = {
     "email": "n.aaron.na@gmail.com",
     "phone": "804-655-1466",
     "address":{
-      // "street":"3030 Summerhurst Drive",
       "city":"Midlothian",
       "state":"VA",
       "zip": "23113"
     },
     "website": "https://www.compiledbynikki.com",
-    "resumedownload":"http://compiledbynikki.com/resume",
     "social":[
       {
         "name":"GitHub",

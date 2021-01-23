@@ -24,15 +24,13 @@ import "assets/css/bootstrap.min.css";
 import "assets/scss/now-ui-kit.scss?v=1.4.0";
 import "assets/demo/demo.css?v=1.4.0";
 import "assets/demo/nucleo-icons-page-styles.css?v=1.4.0";
+
 // pages for this kit
 import Index from "views/Index.js";
-import NucleoIcons from "views/NucleoIcons.js";
-import LoginPage from "views/examples/LoginPage.js";
 import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 import PortfolioPage from "views/examples/PortfolioPage.js";
 import ResumePage from "views/examples/ResumePage";
-import OldLandingPage from "./views/examples/OldLandingPage";
 
 ReactDOM.render(
   <BrowserRouter>
