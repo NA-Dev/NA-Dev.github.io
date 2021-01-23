@@ -7,6 +7,10 @@ body{
     -webkit-font-smoothing: antialiased;
 }
 
+body .wrapper {
+    overflow: hidden;
+}
+
 .main{
     position: relative;
     background: $white-color;

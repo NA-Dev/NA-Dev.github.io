@@ -56,27 +56,72 @@ function ProfilePage() {
                 )
               })}
             </div>
-            <h3 className="title">About Me</h3>
-            {resumeData.main.bio.map(function (p) {
-              return ( 
-                <h5 className="description">{p}</h5>
-              )
-            })}
             <Row>
-              <Col className="ml-auto mr-auto" md="6">
-                <div className="nav-align-center">
-                  <Button
-                    className="btn-round mr-1"
-                    color="info"
-                    href="/portfolio"
-                    size="lg"
-                    target="_blank"
-                  >
-                    Recent Projects
-                  </Button>
-                </div>
+              <Col className="ml-auto mr-auto text-center" md="8">
+                <h2 className="title">About Me</h2>
               </Col>
             </Row>
+            <div className="separator separator-primary"></div>
+            <div className="section-about">
+              <div className="story-center">
+                <p>
+                  {resumeData.main.bio[0]}
+                </p>
+              </div>
+              <div
+                className="image-container image-left"
+                style={{
+                  backgroundImage:
+                    "url(" + require("assets/img/power.jpg") + ")",
+                }}
+              >
+              </div>
+              <div
+                  className="image-container image-right"
+                  style={{
+                    backgroundImage:
+                        "url(" + require("assets/img/sandiego.jpg") + ")",
+                  }}
+              ></div>
+              <div className="story-left">
+                <p>{resumeData.main.bio[1]}</p>
+              </div>
+              <div className="story-right">
+                <p>{resumeData.main.bio[2]}</p>
+              </div>
+              <div
+                className="image-container image-left"
+                style={{
+                  backgroundImage:
+                    "url(" + require("assets/img/engagement.jpg") + ")",
+                }}
+              >
+              </div>
+              <div
+                className="image-container image-right"
+                style={{
+                  backgroundImage:
+                    "url(" + require("assets/img/duomo.jpg") + ")",
+                }}
+              ></div>
+              <div className="story-left">
+                <p>{resumeData.main.bio[3]}</p>
+              </div>
+              <div className="story-right">
+                <p>{resumeData.main.bio[4]}</p>
+              </div>
+            </div>
+            <div className="nav-align-center">
+              <Button
+                className="btn-round mr-1"
+                color="info"
+                href="/portfolio"
+                size="lg"
+                target="_blank"
+              >
+                See My Recent Projects
+              </Button>
+            </div>
           </Container>
         </div>
         <DefaultFooter />

@@ -5,3 +5,27 @@
   }
   
 }
+
+.section-about {
+    display: flex;
+    flex-wrap: wrap;
+    
+    & > * {
+        margin: 0;
+        width: 50%;
+    }
+
+    .image-container{
+        height: 335px;
+        position: relative;
+        background-position: center center;
+        background-size: cover;
+        box-shadow: $box-shadow-raised;
+        border-radius: .25rem;
+
+        & + .category{
+            padding-top: 15px;
+        }
+    }
+}
+

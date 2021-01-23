@@ -1,6 +1,6 @@
 /*eslint-disable*/
 import React from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+// import { Link, animateScroll as scroll } from "react-scroll";
 
 // reactstrap components
 import {Button, Container} from "reactstrap";
@@ -51,15 +51,24 @@ function IndexHeader() {
               <Button
                 className="btn-round"
                 color="info"
+                href="/about"
                 size="lg"
-                to="about"
-                smooth={true}
-                offset={-62}
-                duration={500}
-                tag={Link}
+                target="_blank"
               >
-                Learn More
+                Learn More About Me
               </Button>
+              {/*<Button*/}
+              {/*  className="btn-round"*/}
+              {/*  color="info"*/}
+              {/*  size="lg"*/}
+              {/*  to="about"*/}
+              {/*  smooth={true}*/}
+              {/*  offset={-62}*/}
+              {/*  duration={500}*/}
+              {/*  tag={Link}*/}
+              {/*>*/}
+              {/*  Learn More*/}
+              {/*</Button>*/}
             </div>
           </h6>
         </Container>
