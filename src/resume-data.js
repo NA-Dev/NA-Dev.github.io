@@ -145,11 +145,21 @@ export const resumeData = {
   "portfolio":{
     "projects": [
       {
-        "title":"",
-        "category":"",
-        "image":"",
-        "url":""
-      }
+        "title":"Hollywood Network Centrality",
+        "category":"Network Analysis",
+        "image":"/img/projects/hollywood-network.png",
+        "url":"https://htmlpreview.github.io/?https://github.com/NA-Dev/graph-network-centrality/blob/main/FinalProject.html",
+        "code":"https://github.com/NA-Dev/graph-network-centrality/",
+        "description": "Using the example of the Hollywood actor network, I give in-depth explanations of different ways to define and calculate network centrality."
+      },
+      {
+        "title":"NLP Wine Recommender",
+        "category":"Natural Language Processing, Scraping",
+        "image":"/img/projects/nlp-wine.png",
+        "url":"https://github.com/NA-Dev/nlp-wine-recommender/blob/master/ProjectPresentation.pdf",
+        "code":"https://github.com/NA-Dev/nlp-wine-recommender",
+        "description": "A series of Natural Language Processing steps were used to enrich a wine review data set to include wine type and flavor notes. Next, a terminal app returns wine recommendations based on your interaction."
+      },
     ]
   }
 }

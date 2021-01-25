@@ -17,13 +17,13 @@ import {resumeData} from "../../resume-data";
 
 function PortfolioPage() {
   React.useEffect(() => {
-    document.body.classList.add("profile-page");
+    document.body.classList.add("portfolio-page");
     document.body.classList.add("sidebar-collapse");
     document.documentElement.classList.remove("nav-open");
     window.scrollTo(0, 0);
     document.body.scrollTop = 0;
     return function cleanup() {
-      document.body.classList.remove("profile-page");
+      document.body.classList.remove("portfolio-page");
       document.body.classList.remove("sidebar-collapse");
     };
   }, []);
@@ -35,7 +35,6 @@ function PortfolioPage() {
         <div className="section">
           <Container>
             <div className="button-container">
-              
               {resumeData.main.social.map(function (social) {
                 return ( 
                   <>
@@ -57,6 +56,55 @@ function PortfolioPage() {
               })}
             </div>
             <h3 className="title">Recent Projects</h3>
+          </Container>
+        </div> 
+        <div className="section section-projects text-center">
+          <Container>
+            <div className="projects">
+              <Row>
+                {resumeData.portfolio.projects.map(function (project) {
+                  return ( 
+                    <Col md="4">
+                      <div className="project">
+                        <img
+                          alt={project.title}
+                          className="rounded-circle img-fluid img-raised"
+                          src={project.image}
+                        ></img>
+                        <h4 className="title">{project.title}</h4>
+                        <p className="category text-info">{project.category}</p>
+                        <p className="description">
+                          {project.description}
+                        </p>
+                        <div className="project-buttons text-center">
+                          {project.url && 
+                            <Button
+                              className=""
+                              color="info"
+                              href={project.url}
+                              target="_blank"
+                            >
+                              <i className="fab fas fa-eye mr-2"></i> Final Project
+                            </Button>
+                          }
+                          {project.code && 
+                          <Button
+                            className=""
+                            color="info"
+                            href={project.code}
+                            target="_blank"
+                          >
+                            <i className="fab fa-github mr-2"></i> See Code
+                          </Button>
+                          }
+                        </div>
+                      </div>
+                    </Col>
+                  )
+                })}
+              </Row>
+              <h2>More coming soon, check back next week.</h2>
+            </div>
             <Row>
               <Col className="ml-auto mr-auto" md="6">
                 <div className="nav-align-center">

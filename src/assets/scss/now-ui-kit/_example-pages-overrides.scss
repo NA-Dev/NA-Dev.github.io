@@ -12,3 +12,24 @@
     }
 
 }
+
+.portfolio-page {
+
+    .section-projects {
+        .projects .project img {
+            max-width: 250px;
+        }
+
+        .project {
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .project-buttons {
+            margin-top: auto;
+            margin-bottom: 30px;
+        }
+    }
+}
