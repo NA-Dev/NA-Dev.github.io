@@ -1,19 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.4ecf2d4f.chunk.css",
-    "main.js": "/static/js/main.468914c2.chunk.js",
-    "main.js.map": "/static/js/main.468914c2.chunk.js.map",
+    "main.js": "/static/js/main.2102931c.chunk.js",
+    "main.js.map": "/static/js/main.2102931c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7e10d8b6.js",
     "runtime-main.js.map": "/static/js/runtime-main.7e10d8b6.js.map",
-    "static/js/2.3404cd71.chunk.js": "/static/js/2.3404cd71.chunk.js",
-    "static/js/2.3404cd71.chunk.js.map": "/static/js/2.3404cd71.chunk.js.map",
+    "static/js/2.c6e15b59.chunk.js": "/static/js/2.c6e15b59.chunk.js",
+    "static/js/2.c6e15b59.chunk.js.map": "/static/js/2.c6e15b59.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.05e6a9e839210f533a54766bbe0153c6.js": "/precache-manifest.05e6a9e839210f533a54766bbe0153c6.js",
+    "precache-manifest.6d57cbf9ed5127c5d00e8505436b82c6.js": "/precache-manifest.6d57cbf9ed5127c5d00e8505436b82c6.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.4ecf2d4f.chunk.css.map": "/static/css/main.4ecf2d4f.chunk.css.map",
-    "static/js/2.3404cd71.chunk.js.LICENSE.txt": "/static/js/2.3404cd71.chunk.js.LICENSE.txt",
+    "static/js/2.c6e15b59.chunk.js.LICENSE.txt": "/static/js/2.c6e15b59.chunk.js.LICENSE.txt",
     "static/media/NAaronResume2021.pdf": "/static/media/NAaronResume2021.1a5a064f.pdf",
-    "static/media/avatar.jpg": "/static/media/avatar.7257a1a9.jpg",
     "static/media/bama.jpg": "/static/media/bama.108d3e59.jpg",
     "static/media/bg1.jpg": "/static/media/bg1.6b1983a2.jpg",
     "static/media/bg11.jpg": "/static/media/bg11.e643a6cf.jpg",
@@ -24,7 +23,6 @@
     "static/media/desk.jpg": "/static/media/desk.45382922.jpg",
     "static/media/duomo.jpg": "/static/media/duomo.131ee73a.jpg",
     "static/media/engagement.jpg": "/static/media/engagement.9e7c0c91.jpg",
-    "static/media/eva.jpg": "/static/media/eva.089c4f4e.jpg",
     "static/media/header.jpg": "/static/media/header.4137b6a1.jpg",
     "static/media/headshot.jpg": "/static/media/headshot.6bbe1e45.jpg",
     "static/media/hero-image-1.png": "/static/media/hero-image-1.a76c7b4c.png",
@@ -32,19 +30,17 @@
     "static/media/hero-image-3.png": "/static/media/hero-image-3.02cd0e2d.png",
     "static/media/julie.jpg": "/static/media/julie.138381e5.jpg",
     "static/media/landing.jpg": "/static/media/landing.f8fba454.jpg",
-    "static/media/login.jpg": "/static/media/login.b2101951.jpg",
     "static/media/logo.png": "/static/media/logo.0ac86469.png",
     "static/media/now-ui-kit.scss?v=1.4.0": "/static/media/nucleo-outline.8ebec31f.woff2",
     "static/media/numbers.jpg": "/static/media/numbers.8b923431.jpg",
     "static/media/power.jpg": "/static/media/power.89988601.jpg",
     "static/media/profile.jpg": "/static/media/profile.225653f9.jpg",
-    "static/media/ryan.jpg": "/static/media/ryan.f217f346.jpg",
     "static/media/sandiego.jpg": "/static/media/sandiego.990e0ed7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7e10d8b6.js",
-    "static/js/2.3404cd71.chunk.js",
+    "static/js/2.c6e15b59.chunk.js",
     "static/css/main.4ecf2d4f.chunk.css",
-    "static/js/main.468914c2.chunk.js"
+    "static/js/main.2102931c.chunk.js"
   ]
 }
