@@ -161,6 +161,14 @@ export const resumeData = {
         "description": "A series of Natural Language Processing steps were used to enrich a wine review data set to include wine type and flavor notes. Next, a terminal app returns wine recommendations based on your interaction."
       },
       {
+        "title":"Vino Verde Regression",
+        "category":"Linear Regression Modeling",
+        "image":"/img/projects/vine-verde-regression.png",
+        "url":"https://github.com/NA-Dev/vino-verde-regression/blob/main/report.pdf",
+        "code":"https://github.com/NA-Dev/vino-verde-regression",
+        "description": "Using quality and composition data on wines from the Vino Verde region of Portugal, we were able to perform simple linear regression to see which factors were significant predictors of wine type with 99% accuracy and wine quality with 75% accuracy."
+      },
+      {
         "title":"Gender Wage Gap Dash",
         "category":"Exploratory Data Analysis, Visualization",
         "image":"/img/projects/wage-gap-dash.png",
