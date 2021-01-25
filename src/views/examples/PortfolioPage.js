@@ -32,7 +32,7 @@ function PortfolioPage() {
       <ExamplesNavbar />
       <div className="wrapper">
         <PortfolioPageHeader />
-        <div className="section">
+        <div className="section section-projects text-center">
           <Container>
             <div className="button-container">
               {resumeData.main.social.map(function (social) {
@@ -56,10 +56,7 @@ function PortfolioPage() {
               })}
             </div>
             <h3 className="title">Recent Projects</h3>
-          </Container>
-        </div> 
-        <div className="section section-projects text-center">
-          <Container>
+
             <div className="projects">
               <Row>
                 {resumeData.portfolio.projects.map(function (project) {

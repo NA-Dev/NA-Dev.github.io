@@ -31,7 +31,6 @@ import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 import PortfolioPage from "views/examples/PortfolioPage.js";
 import ResumePage from "views/examples/ResumePage";
-import OldLandingPage from "./views/examples/OldLandingPage";
 
 ReactDOM.render(
   <BrowserRouter>
