@@ -160,6 +160,14 @@ export const resumeData = {
         "code":"https://github.com/NA-Dev/nlp-wine-recommender",
         "description": "A series of Natural Language Processing steps were used to enrich a wine review data set to include wine type and flavor notes. Next, a terminal app returns wine recommendations based on your interaction."
       },
+      {
+        "title":"Gender Wage Gap Dash",
+        "category":"Exploratory Data Analysis, Visualization",
+        "image":"/img/projects/wage-gap-dash.png",
+        "url":"https://wage-gap-dash-app.herokuapp.com/",
+        "code":"https://github.com/NA-Dev/wage-gap-heroku-dash",
+        "description": "General Social Survey data was cleaned, analyzed and visualized in an interactive Dash app to show the extent of the gender wage gap in the US."
+      }
     ]
   }
 }
