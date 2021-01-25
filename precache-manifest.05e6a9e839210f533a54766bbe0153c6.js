@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37afb77e585b96eaf23800e554e61bb6",
+    "revision": "3c2c0a92d26c42f41cbffa123d66c7f2",
     "url": "/index.html"
   },
   {
-    "revision": "61b28dee78232addc654",
-    "url": "/static/css/main.b593dd8f.chunk.css"
+    "revision": "d5b0b939dc8df5dfd2ce",
+    "url": "/static/css/main.4ecf2d4f.chunk.css"
   },
   {
-    "revision": "b559e4358ca0b775fbc8",
-    "url": "/static/js/2.c6e15b59.chunk.js"
+    "revision": "af4c5e917598fc66da53",
+    "url": "/static/js/2.3404cd71.chunk.js"
   },
   {
     "revision": "ac4a31b929cb9380c4a242904540a469",
-    "url": "/static/js/2.c6e15b59.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.3404cd71.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "61b28dee78232addc654",
-    "url": "/static/js/main.c9ee4208.chunk.js"
+    "revision": "d5b0b939dc8df5dfd2ce",
+    "url": "/static/js/main.468914c2.chunk.js"
   },
   {
     "revision": "84cc13297d3a86ee5ccb",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1a5a064fccd98236a36697cc81a6fe4d",
     "url": "/static/media/NAaronResume2021.1a5a064f.pdf"
+  },
+  {
+    "revision": "7257a1a94be550133f3233fd792ee724",
+    "url": "/static/media/avatar.7257a1a9.jpg"
   },
   {
     "revision": "108d3e593dde74a873f02b8feb1a014f",
@@ -68,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/engagement.9e7c0c91.jpg"
   },
   {
+    "revision": "089c4f4e55f158a69d0364c6b6339f37",
+    "url": "/static/media/eva.089c4f4e.jpg"
+  },
+  {
     "revision": "4137b6a17ce323fc899ab0dc98a33160",
     "url": "/static/media/header.4137b6a1.jpg"
   },
@@ -94,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f8fba45478e18757e67c37b6644a3cec",
     "url": "/static/media/landing.f8fba454.jpg"
+  },
+  {
+    "revision": "b21019516fd574253e2354080dc1dd00",
+    "url": "/static/media/login.b2101951.jpg"
   },
   {
     "revision": "0ac864693d5abbeb6ed81e7a9841d08a",
@@ -126,6 +138,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "225653f9f4dacef3e81bcc52f5ef547d",
     "url": "/static/media/profile.225653f9.jpg"
+  },
+  {
+    "revision": "f217f346c88e5fb2720ca7c28827ff72",
+    "url": "/static/media/ryan.f217f346.jpg"
   },
   {
     "revision": "990e0ed7fd76aee52276aabbb7453fde",
