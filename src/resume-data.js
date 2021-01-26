@@ -161,12 +161,20 @@ export const resumeData = {
         "description": "A series of Natural Language Processing steps were used to enrich a wine review data set to include wine type and flavor notes. Next, a terminal app returns wine recommendations based on your interaction."
       },
       {
-        "title":"Vino Verde Regression",
+        "title":"Diamond Price Regression",
         "category":"Linear Regression Modeling",
-        "image":"/img/projects/vine-verde-regression.png",
-        "url":"https://github.com/NA-Dev/vino-verde-regression/blob/main/report.pdf",
-        "code":"https://github.com/NA-Dev/vino-verde-regression",
-        "description": "Using quality and composition data on wines from the Vino Verde region of Portugal, we were able to perform simple linear regression to see which factors were significant predictors of wine type with 99% accuracy and wine quality with 75% accuracy."
+        "image":"/img/projects/diamond-regression.png",
+        "url":"https://htmlpreview.github.io/?https://github.com/NA-Dev/diamond-price-regression/blob/main/report.html",
+        "code":"https://github.com/NA-Dev/diamond-price-regression",
+        "description": "Here we analyzed the features that contribute to diamond price. We found that expected features like size and clarity are great predictors of mid-level diamonds, whereas more expensive diamonds are priced more esoterically."
+      },
+      {
+        "title":"Forest Fire Bayesian Regression",
+        "category":"Bayesian Machine Learning",
+        "image":"/img/projects/forestfire-regression.png",
+        "url":"https://github.com/NA-Dev/forestfire-bayesian-regression/blob/main/report.pdf",
+        "code":"https://github.com/NA-Dev/forestfire-bayesian-regression",
+        "description": "Logistic and linear models were built with PyMC3 from a Portuguese forest fire data set. PyMCS uses Markov Chain Monte Carlo (MCMC) and Variational Inference (VI) to approximate the statistical distributions of the likely population from which data was taken. "
       },
       {
         "title":"Gender Wage Gap Dash",
@@ -175,7 +183,15 @@ export const resumeData = {
         "url":"https://wage-gap-dash-app.herokuapp.com/",
         "code":"https://github.com/NA-Dev/wage-gap-heroku-dash",
         "description": "General Social Survey data was cleaned, analyzed and visualized in an interactive Dash app to show the extent of the gender wage gap in the US."
-      }
+      },
+      {
+        "title":"Vino Verde Regression",
+        "category":"Linear Regression Modeling",
+        "image":"/img/projects/vino-verde-regression.png",
+        "url":"https://github.com/NA-Dev/vino-verde-regression/blob/main/report.pdf",
+        "code":"https://github.com/NA-Dev/vino-verde-regression",
+        "description": "Using quality and composition data on wines from the Vino Verde region of Portugal, we were able to perform simple linear regression to see which factors were significant predictors of wine type with 99% accuracy and wine quality with 75% accuracy."
+      },
     ]
   }
 }

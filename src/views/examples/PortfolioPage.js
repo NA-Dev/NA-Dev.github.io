@@ -100,7 +100,6 @@ function PortfolioPage() {
                   )
                 })}
               </Row>
-              <h2>More coming soon, check back next week.</h2>
             </div>
             <Row>
               <Col className="ml-auto mr-auto" md="6">
