@@ -82,8 +82,8 @@ export const resumeData = {
         "title":"Full Stack Web Developer",
         "years":"March 2007 - February 2010",
         "description": [
-            " Developed scalable, fault-tolerant web apps in PHP, Javascript, React, Node, Laravel, and Vue.js to help entrepreneurs manage their business processes.",
-            "Created apis, schedulers, and payment systems that saved clients time and money, and improved the user experience for their customers and employees."
+            "Coded for data collection, visualized data in dashboards, and developed data analytics strategies to help entrepreneurs and businesses gain customer insight from activity on their websites.",
+            "Created apis, schedulers, and payment systems for scalable web apps that saved clients time and money, and improved the user experience for their customers and employees."
         ]
       },
       {
@@ -91,8 +91,7 @@ export const resumeData = {
         "title":"Load Rating Engineer",
         "years":"September 2016 - October 2017",
         "description": [
-          "Performed structural analysis of bridges to grant permits for oversized load crossings.",
-          "Reduced permit processing time by 60% by automating our calculations and decision making using Visual Basic code in Excel.",
+          "Reduced permit processing time by 60% using Visual Basic code in Excel to automate our calculations and decision making based on historical data.",
           "Mocked up an ArcGIS mapping application for bridge data management after completing ArcGIS training."
         ]
       },
@@ -102,7 +101,7 @@ export const resumeData = {
         "years":"April 2014 - June 2016",
         "description": [
           "Integrated computer vision systems into our assembly line and trained their machine learning algorithms to detect defects from captured images.",
-          "Completed Six Sigma Green Belt project to eliminate $1500/day in defective assemblies.",
+          "Completed Six Sigma Green Belt project to eliminate $1500/day in defective assemblies using statistical regression analysis.",
           "Experimented with variable production parameters to optimize the quality of layered plastic and leather products. This optimization added a previously un-processable product line to our plant, saving the company tens of thousands of dollars in air-freight costs annually."
         ]
       },
