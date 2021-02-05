@@ -13,33 +13,7 @@ function Resume() {
         <div className="objective">
             <p>{resumeData.resume.objective}</p>
         </div>
-
-        <div className="row education">
-          <div className="col col-12 col-lg-3 header-col">
-            <h1><span>Education</span></h1>
-          </div>
-          
-          <div className="col col-12 col-lg-9 main-col">
-            <div className="row item">
-              <div className="col col-12">
-                {resumeData.resume.education.map(function (education) {
-                  return (
-                    <div key={education.school}>
-                      <h3>{education.degree}</h3>
-                      <p className="info">
-                        {education.school} 
-                        <span>&bull;</span>
-                        <em className="date">{education.graduated}</em>
-                      </p>
-                      <p>{education.description}</p></div>
-                  )
-                })}
-              </div>
-            </div>
-          </div>
-        </div>
-
-
+        
         <div className="row work">
 
           <div className="col col-12 col-lg-3 header-col">
@@ -70,10 +44,35 @@ function Resume() {
         </div>
 
 
+        <div className="row education">
+          <div className="col col-12 col-lg-3 header-col">
+            <h1><span>Education</span></h1>
+          </div>
+          
+          <div className="col col-12 col-lg-9 main-col">
+            <div className="row item">
+              <div className="col col-12">
+                {resumeData.resume.education.map(function (education) {
+                  return (
+                    <div key={education.school}>
+                      <h3>{education.degree}</h3>
+                      <p className="info">
+                        {education.school} 
+                        <span>&bull;</span>
+                        <em className="date">{education.graduated}</em>
+                      </p>
+                      <p>{education.description}</p></div>
+                  )
+                })}
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="row skill">
 
           <div className="col col-12 col-lg-3 header-col">
-            <h1><span>Skills</span></h1>
+            <h1><span>Skills / Technologies</span></h1>
           </div>
 
           <div className="col col-12 col-lg-9 main-col">

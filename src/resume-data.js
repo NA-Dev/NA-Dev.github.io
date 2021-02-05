@@ -48,26 +48,7 @@ export const resumeData = {
   },
   "resume":{
     "objective":"I am a self-driven, creative data scientist with a background in statistical data analysis, programming, and engineering. Upon graduation in May, I hope to join an innovative team to make use of and develop my skills.",
-    "education":[
-      {
-        "school":"University of Virginia",
-        "degree":"Masters in Data Science",
-        "graduated":"May 2021",
-        "description":"The MSDS program is taught by faculty from the Departments of Computer Science, Statistics, and Systems and Information Engineering. Topics include Python Programming, Algorithms and Data Structures, Linear Modeling, Data Mining, Big Data, Natural Language Processing, and Machine Learning"
-      },
-      {
-        "school":"University of Richmond",
-        "degree":"Full Stack Web Development Certificate",
-        "graduated":"March 2018",
-        "description":"Project-based courses on UX/UI design, object-oriented programming in Javascript and PHP, database operations, cloud services, and web-app deployment."
-      },
-      {
-        "school":"University of Alabama - Birmingham",
-        "degree":"Bachelors in Mechanical Engineering",
-        "graduated":"March 2018",
-        "description":"Learned mathematics, physics, thermodynamics, and materials science principles to design, analyze, manufacture, and maintain mechanical systems."
-      }
-    ],
+
     "work":[
       {
         "company":"University of Virginia",
@@ -80,7 +61,7 @@ export const resumeData = {
       {
         "company":"Ameronix Corporation",
         "title":"Full Stack Web Developer",
-        "years":"March 2007 - February 2010",
+        "years":"March 2018 - July 2020",
         "description": [
             "Coded for data collection, visualized data in dashboards, and developed data analytics strategies to help entrepreneurs and businesses gain customer insight from activity on their websites.",
             "Created apis, schedulers, and payment systems for scalable web apps that saved clients time and money, and improved the user experience for their customers and employees."
@@ -114,18 +95,45 @@ export const resumeData = {
         ]
       }
     ],
+    
+    "education":[
+      {
+        "school":"University of Virginia",
+        "degree":"Masters in Data Science",
+        "graduated":"May 2021",
+        "description":"The MSDS program is taught by faculty from the Departments of Computer Science, Statistics, and Systems and Information Engineering. Topics include Python Programming, Algorithms and Data Structures, Linear Modeling, Data Mining, Big Data, Natural Language Processing, and Machine Learning"
+      },
+      {
+        "school":"University of Richmond",
+        "degree":"Full Stack Web Development Certificate",
+        "graduated":"March 2018",
+        "description":"Project-based courses on UX/UI design, object-oriented programming in Javascript and PHP, database operations, cloud services, and web-app deployment."
+      },
+      {
+        "school":"University of Alabama - Birmingham",
+        "degree":"Bachelors in Mechanical Engineering",
+        "graduated":"March 2018",
+        "description":"Learned mathematics, physics, thermodynamics, and materials science principles to design, analyze, manufacture, and maintain mechanical systems."
+      }
+    ],
+    
     "skills_categories":[
       {
-        "name":"Programming",
+        "name":"Data Science and Machine Learning",
+        "skills": ["Liner Regression", "Ridge/Lasso Regression", "Classification", "Clustering", "PCA Dimensionality Reduction", "Natural Language Processing",
+          "Random Forest", "XGBoost", "Supervised Learning", "Unsupervised Learning"]
+      },
+      {
+        "name":"Programming Languages",
         "skills": ["Python", "R", "PHP", "Spark", "Excel/VBA"]
       },
       {
         "name":"Database",
-        "skills": ["MySQL", "SQLite", "GraphQL", "MongoDB"]
+        "skills": ["MySQL", "SQLite", "GraphQL", "MongoDB", "NoSQL"]
       },
       {
         "name":"Visualization",
-        "skills": ["GGPlot", "Tableau", "ArcGIS"]
+        "skills": ["GGPlot", "Tableau", "ArcGIS", "D3.js"]
       },
       {
         "name":"Web Development",
